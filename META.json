@@ -4,7 +4,7 @@
       "Nick Patch <patch@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.112621",
    "license" : [
       "perl_5"
    ],
@@ -26,7 +26,7 @@
       },
       "runtime" : {
          "requires" : {
-            "String::Dump" : "0.05",
+            "String::Dump" : "0.08",
             "Template" : "2.07",
             "parent" : 0,
             "perl" : "v5.6.0"
@@ -36,7 +36,7 @@
    "provides" : {
       "Template::Plugin::StringDump" : {
          "file" : "lib/Template/Plugin/StringDump.pm",
-         "version" : "0.04"
+         "version" : "0.05"
       }
    },
    "release_status" : "stable",
@@ -52,5 +52,5 @@
          "url" : "git://github.com/patch/template-plugin-stringdump-pm5.git"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
